@@ -37,12 +37,13 @@ GO
 
 
 INSERT INTO Livros (IdInstituicao, IdCategoria, IdAutor, Titulo, Sinopse, DataDaPublicacao, Preco)
-VALUES			   (2,	1,	1,	'Vozes e Vultos', 'Quando um casal se muda de Manhattan para um pequeno vilarejo no Vale do Hudson, eles precisam lidar com o passado sinistro de sua nova residência.', '20/12/2021', '50,00'),
+VALUES			   (2,	1,	1,	'Vozes e Vultos', 'Quando um casal se muda de Manhattan para um pequeno vilarejo no Vale do Hudson, eles precisam lidar com o passado sinistro de sua nova residência.', '20/02/2021', '50,00'),
 				   (1,  2,  1, 'Star Wars', 'O Retorno de Jedi. Na obra, o leitor descobrirá que a guerra ainda não chegou ao fim e que os traumas gerados pelo conflito ainda serão sentidos por lá.', '15/12/2015', '70,00'),
-				   (3,  3,  2, 'Hamlet', 'Hamlet é o príncipe da Dinamarca; além de não conseguir se decidir a tirar a própria vida, tampouco consegue se decidir a tirar a vida do rei, seu tio, usurpador do trono e sedutor da rainha sua mãe, conforme o relato do fantasma de seu pai, que lhe aparece pedindo vingança.', '10/12/2020', '60,00');
+				   (3,  3,  2, 'Hamlet', 'Hamlet é o príncipe da Dinamarca; além de não conseguir se decidir a tirar a própria vida, tampouco consegue se decidir a tirar a vida do rei, seu tio, usurpador do trono e sedutor da rainha sua mãe, conforme o relato do fantasma de seu pai, que lhe aparece pedindo vingança.', '10/12/2020', '60,00'),
+				   (2,  1,  2, 'Os Gritos Mudos','Um pesquisador decidiu se mudar para uma cidade completamente esquecida','20/06/2021','50,75'),
+				   (1,  2,  1, 'A rainha vermelha','O mundo de Mare Barrow é dividido pelo sangue: vermelho ou prateado. Mare e sua família são vermelhos: plebeus, humildes, destinados a servir uma elite prateada cujos poderes sobrenaturais os tornam quase deuses. ','17/06/2020','20,55');
 
-				   
-				
+			
 GO
 
 INSERT INTO Autores(IdUsuario, NomeAutor)
