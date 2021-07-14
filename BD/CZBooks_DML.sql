@@ -35,6 +35,10 @@ VALUES				 ('Terror'),
 				     ('Drama');
 GO 
 
+INSERT INTO Autores(IdUsuario, NomeAutor)
+VALUES			   (2, 'Machado'),
+				   (3, 'Felipe');
+GO
 
 INSERT INTO Livros (IdInstituicao, IdCategoria, IdAutor, Titulo, Sinopse, DataDaPublicacao, Preco)
 VALUES			   (2,	1,	1,	'Vozes e Vultos', 'Quando um casal se muda de Manhattan para um pequeno vilarejo no Vale do Hudson, eles precisam lidar com o passado sinistro de sua nova residência.', '20/02/2021', '50,00'),
@@ -46,7 +50,4 @@ VALUES			   (2,	1,	1,	'Vozes e Vultos', 'Quando um casal se muda de Manhattan pa
 			
 GO
 
-INSERT INTO Autores(IdUsuario, NomeAutor)
-VALUES			   (2, 'Machado'),
-				   (3, 'Felipe');
-GO
+
